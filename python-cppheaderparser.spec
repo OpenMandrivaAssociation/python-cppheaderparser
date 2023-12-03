@@ -6,7 +6,7 @@ Release:        1
 Summary:        Parse C++ header files and generate a data structure
 License:        BSD
 URL:            http://senexcanis.com/open-source/cppheaderparser/
-Source0:        https://pypi.io/packages/source/c/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
+Source0:        https://pypi.io/packages/source/c/CppHeaderParser/CppHeaderParser-%{version}.tar.gz
 BuildArch:      noarch
 
 BuildRequires:  pkgconfig(python)
