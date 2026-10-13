@@ -2,15 +2,16 @@
  
 Name:           python-%{pypi_name}
 Version:        2.7.4
-Release:        2
+Release:        3
 Summary:        Parse C++ header files and generate a data structure
 License:        BSD
+Group:		Development/Python
 URL:            https://senexcanis.com/open-source/cppheaderparser/
 Source0:        https://pypi.io/packages/source/c/CppHeaderParser/CppHeaderParser-%{version}.tar.gz
 BuildArch:      noarch
 
-BuildRequires:  pkgconfig(python)
-BuildRequires:  python3dist(setuptools)
+BuildRequires:  pkgconfig(python3)
+BuildRequires:  python%{pyver}dist(setuptools)
 %{?python_provide:%python_provide python3-%{pypi_name}}
  
 %description
